@@ -1,0 +1,139 @@
+/* 🛠 Layout */
+.admin-dashboard {
+    display: flex;
+    min-height: 100vh;
+    background: #f4f6f9;
+
+  }
+  
+  /* Sidebar already handled separately */
+  
+  /* 🧹 Content Area */
+  .admin-trainees-content {
+    min-height: 89vh;
+    flex: 1;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 📢 Page Heading */
+  .admin-trainees-header h1 {
+    color: #27374D;
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* 🔎 Search Bar */
+  .search-trainees-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* 📋 Trainees Table */
+  .admin-trainees-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-trainees-table th,
+  .admin-trainees-table td {
+    padding: 13px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .admin-trainees-table th {
+    background: #27374D;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  /* 📥 Trainer Dropdown */
+  .select-trainer-dropdown {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* 🎛 Buttons */
+  .button-edit,
+  .button-delete,
+  .button-save {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  /* ✏️ Edit Button */
+  .button-edit {
+    background-color: #27374D;
+    color: white;
+  }
+  
+  .button-edit:hover {
+    background-color: #0f1720;
+  }
+  
+  /* ❌ Delete Button */
+  .button-delete {
+    background-color: #87151e;
+    color: white;
+  }
+  
+  .button-delete:hover {
+    background-color: #71141d;
+  }
+  
+  /* 💾 Save Button */
+  .button-save {
+    background-color: #0f4a1c;
+    color: white;
+  }
+  
+  .button-save:hover {
+    background-color: #0e3b18;
+  }
+  
+  /* Hover Effects for Table Rows (optional but nice) */
+  .admin-trainees-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive Improvements */
+  @media (max-width: 768px) {
+    .admin-trainees-content {
+      padding: 20px;
+      margin: 15px;
+    }
+  
+    .search-trainees-input {
+      font-size: 14px;
+    }
+  
+    .admin-trainees-table th,
+    .admin-trainees-table td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

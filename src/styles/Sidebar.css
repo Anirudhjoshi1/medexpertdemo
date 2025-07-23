@@ -1,0 +1,60 @@
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    height: 94vh;
+}
+
+.logo{
+    text-align: center;
+    padding: 20px 0px;
+    color: #27374d;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.spann{
+    color: rgb(28, 158, 158);
+}
+
+.logo-icon{
+    font-size: 1.4rem;
+}
+
+.sidebar-logo{
+    width: 100px;
+    height: 70px;
+}
+
+.menu--list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu--list .item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #27374d;
+}
+
+.menu--list .item:hover{
+    background:#27374d;
+    color: white;
+}
+
+.menu--list .item.active {
+    background-color: #27374d;
+    color: white;
+}

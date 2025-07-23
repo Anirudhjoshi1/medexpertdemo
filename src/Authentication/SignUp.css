@@ -1,0 +1,116 @@
+
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 94vh;
+    background: #DDE6ED;
+  }
+  
+  .signup-box {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    width: 50%;
+    max-width: 650px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .signup-logo .medex-img {
+    width: 100px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .signup-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cancel-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .confirm-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #27374D;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #202f44;
+  }
+  
+  .login-link {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: #27374D;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

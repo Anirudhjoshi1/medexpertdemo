@@ -1,0 +1,293 @@
+
+.user-settings{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.user-information{
+    width: 80%;
+    height: 30vh;
+    border-radius: 20px;
+    border: 2px solid rgb(228, 225, 225);
+}
+
+
+.user-device-information{
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid rgb(228, 225, 225);
+
+}
+
+.hr{
+    border-top: 1px solid  rgb(228, 225, 225);
+}
+
+
+.user-heading{
+    font-size: 17px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.email-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.email-address h4{
+ font-weight: 600;
+ font-size: 15px;
+}
+
+.wallet-address h4{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.address-text{
+    font-size: 13px;
+    padding: 0 20px;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    margin-top: 5px;
+}
+
+.address-text a{
+    color: rgb(109, 109, 109);
+}
+
+.wallet-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.wallet-address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    margin-top: 20px;
+
+}
+
+.wallet-text{
+    font-size: 13px;
+    margin-top: 10px ;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+}
+
+.device-text{
+  font-size: 13px;
+  margin: 10px 0px;
+  font-weight: 600;
+  color: rgb(109, 109, 109);
+  padding-bottom: 10px;
+}
+
+
+.wallet-button{
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.wallet-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid rgb(228, 225, 225);
+    font-weight: 600;
+}
+
+.wallet-btn:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+.wallet-Logout-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 2px solid rgb(228, 225, 225);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wallet-Logout-btn:hover{
+    border: 2px solid rgb(216, 83, 83);
+    color: rgb(216, 83, 83);
+}
+
+
+
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 28px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 21px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(35, 195, 195);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(29, 184, 184);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
+  
+  
+  .button-83-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    margin-top: 15px;
+  }
+  
+  .button-83-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  .button-83-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      to left,
+      #010203 0%,
+      #06090c 8%,
+      #0b0f15 92%,
+      #0b1017 100%
+    );
+  }
+  
+  .button-83-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #27374D;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  @media (min-width: 768px) {
+    .button-83-front {
+      font-size: 0.9rem;
+      padding: 8px 22px;
+    }
+  }
+  
+  .button-83-pushable:hover {
+    filter: brightness(110%);
+  }
+  
+  .button-83-pushable:hover .button-83-front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-83-pushable:active .button-83-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  
+  .button-83-pushable:hover .button-83-shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-83-pushable:active .button-83-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  
+  .button-83-pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+  

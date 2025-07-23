@@ -1,0 +1,109 @@
+.report-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 80vh;
+    background-color: white;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 20px;
+  }
+
+  .bar-graph-wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .bar-graph-outer{
+    display: flex;  
+    justify-content: space-between;
+    width: 80%;
+
+  }
+
+  .report-table-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  
+  .chart-title, .table-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 45px;
+    color: #333;
+  }
+
+  
+  .report-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-table th, .report-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .report-table th {
+    background: #2F4050;
+  color: white;
+  }
+  
+  .even-row {
+    background-color: #f4f4f4;
+  }
+  
+  .odd-row {
+    background-color: white;
+  }
+
+
+  .heading-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #27374D;
+    margin-top: 20px;
+  }
+
+  .table-heading-Name{
+    padding: 10px;
+  }
+  
+
+
+
+  @media (max-width: 768px) {
+
+    .bar-graph-outer{
+        display: flex;
+        flex-direction: column;
+    }
+    .report-container {
+      padding: 20px 10px;
+    }
+  
+    .chart-title, .table-title {
+      font-size: 18px;
+    }
+  
+    .report-table th, .report-table td {
+      padding: 10px;
+    }
+  }
+  

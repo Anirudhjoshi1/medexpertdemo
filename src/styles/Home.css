@@ -1,0 +1,87 @@
+/* src/pages/Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background: linear-gradient(to right, #0f1218, #0a2d47);
+    color: white;
+    min-height: 80vh;
+    border-radius: 20PX;
+    gap: 20px;
+  }
+  
+  .home-content {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .welcome-heading{
+    font-size: 1.5rem;
+
+  }
+
+ 
+
+  .main-heading {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 3rem;
+  }
+  
+  .home-content p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+  }
+  
+  .home-animation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+  }
+  
+  .heart-video {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .home-buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+  }
+
+  .home-buttons .hm-btn{
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .home-buttons .hm-btn:hover{
+    transform: scale(1.08);
+  }
+
+
+
+.img-hai {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.img-hai:hover{
+  width: 103%;
+}
+
+
